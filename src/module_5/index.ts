@@ -1,6 +1,6 @@
 import { log } from "console";
 import { Sample, Utils } from "./functionProps";
-import { ModelMapper } from "./ModelMapper";
+import { ModelMapper } from "./modelMapper";
 import { Repository } from "./repository";
 
 type User = { id: number; name: string; email: string };
