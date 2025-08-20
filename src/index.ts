@@ -5,7 +5,6 @@ import { Main as Module4 } from "./module_4";
 import { Main as Module5 } from "./module_5";
 import { Main as Module6 } from "./module_6";
 import { Main as Module7 } from "./module_7";
-import { Main as Module8 } from "./module_8";
 
 const args = process.argv.slice(2);
 const moduleName = args[0] || "module1";
@@ -33,9 +32,6 @@ switch (moduleName) {
     break;
   case "module7":
     app = new Module7();
-    break;
-  case "module8":
-    app = new Module8();
     break;
   default:
     throw new Error(`Module ${moduleName} not found`);
